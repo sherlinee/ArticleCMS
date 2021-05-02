@@ -14,7 +14,7 @@ Or, once the MS Login button is implemented, it will automatically log into the 
 1. Created a Resource Group in Azure.
 2. Created an SQL Server and Database in Azure that contains a user table, an article table, and data in each table (populated with the scripts provided in the SQL Scripts folder).
 3. Created a Storage Container in Azure for `images` to be stored in a container.
-4. Completed TODOs in `views.py`.
+4. Completed TODOs in `views.py` and update `config.py` as per the names used, and ids generated.
 5. Created an App Service to deploy the application and enabled app registration in azure directory then redirected Uris to the app service.
 6. Deloyed the app service and linked to my Github
 7. Tested the blog
