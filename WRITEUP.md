@@ -12,11 +12,11 @@
 *Detail how the app and any other needs would have to change for you to change your decision in the last section.* 
 
 ## My preference for this project is an App service.
->A VM could also have been used my main need for Azure in this case was to use Azure as a platform to host to host the web app. I'm also avoiding extra costs and a VM is more expensive thus my preference for an App service. I'm less concerned about scalability in this case as the webapp doesn't expect a large number of users. I would have used a VM in the case of a large number of expected users or potential app growth so I wouldn't have to be worried about scaling. App service has the deployment center where I could be able to use my code from Github and link to deploy in Azure. Basically, an app service serves the current needs as I was more focused on app deployment rather than the os deployment stack but if I were to work on the app with the expectation of having more users, ensure more security, I would use a Virtual machine.
+> A VM could also have been used but my main need for Azure in this case was to use Azure as a platform to host the web app. Basically, an app service serves the current needs as I was more focused on app deployment rather than the os deployment stack but if I were to work on the app with the expectation of having a large number of users, I would use a Virtual machine to ensure a higher scaling processing power and I'd want full control to enable more security. I'm also avoiding extra costs and a VM is more expensive thus my preference for an App service. App service has the deployment center where I could be able to use my code from Github and link to deploy in Azure. I did it in less time than I would have by starting to set up a VM.
 
 ## App Service
 ###### Pros
-- Support of multiple languages, such as Java, Node.js, PHP, and Python
+- Support of multiple languages, such as Java, and Python
 - Cloud provider manages infrastructure so eases the developer's work
 - High availability and scalability
 - Continuous deployment using GitHub or any Git repo.
